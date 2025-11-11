@@ -1,0 +1,10 @@
+:100644 100644 828be3f50 000000000 M	methods/connect.cc
+
+diff --git a/methods/connect.cc b/methods/connect.cc
+index 828be3f50..55795ebbe 100644
+--- a/methods/connect.cc
++++ b/methods/connect.cc
+@@ -954,2 +954,3 @@ static SSL_CTX *GetContextForHost(std::string const &host, aptConfigWrapperForMe
+    // We set the context here, but lastHost at the end to only allow reuse of fully initialized contexts
++   OPENSSL_init_crypto(OPENSSL_INIT_LOAD_CONFIG, NULL);
+    ctx = SSL_CTX_new(TLS_client_method());
