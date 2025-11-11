@@ -1,0 +1,15 @@
+:100644 100644 a3e4c45df 000000000 M	debian/control
+
+diff --git a/debian/control b/debian/control
+index a3e4c45df..c62fa03fd 100644
+--- a/debian/control
++++ b/debian/control
+@@ -18,3 +18,2 @@ Build-Depends: dpkg-dev (>= 1.22.5) <!pkg.apt.ci>,
+                libbz2-dev,
+-               libdb-dev,
+                libssl-dev,
+@@ -148,4 +147,2 @@ Description: package management related utility programs
+  .
+-  * apt-ftparchive is used to create Packages and other index files
+-    needed to publish an archive of Debian packages
+   * apt-sortpkgs is a Packages/Sources file normalizer.

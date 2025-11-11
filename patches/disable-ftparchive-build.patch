@@ -1,0 +1,28 @@
+:100644 100644 756e4947c 000000000 M	CMakeLists.txt
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 756e4947c..7363e5a39 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -89,7 +89,2 @@ add_optional_compile_options(Werror=return-type)
+ add_optional_compile_options(Wp,-D_GLIBCXX_ASSERTIONS)
+-# apt-ftparchive dependencies
+-find_package(Berkeley REQUIRED)
+-if (BERKELEY_FOUND)
+-  set(HAVE_BDB 1)
+-endif()
+ 
+@@ -255,3 +250,2 @@ add_subdirectory(doc)
+ add_subdirectory(dselect)
+-add_subdirectory(ftparchive)
+ add_subdirectory(methods)
+:100644 100644 1984cd672 000000000 M	po/CMakeLists.txt
+
+diff --git a/po/CMakeLists.txt b/po/CMakeLists.txt
+index 1984cd672..92645fb1e 100644
+--- a/po/CMakeLists.txt
++++ b/po/CMakeLists.txt
+@@ -33,3 +33,2 @@ apt_add_translation_domain(
+             apt-internal-planner
+-            apt-ftparchive
+     EXCLUDE_LANGUAGES ${languages_excluded}

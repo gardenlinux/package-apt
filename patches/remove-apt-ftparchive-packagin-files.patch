@@ -1,0 +1,9 @@
+:100644 100644 6c2978a4d 000000000 M	debian/apt-utils.install
+
+diff --git a/debian/apt-utils.install b/debian/apt-utils.install
+index 6c2978a4d..c61f138c7 100644
+--- a/debian/apt-utils.install
++++ b/debian/apt-utils.install
+@@ -1,2 +1 @@
+-usr/bin/apt-ftparchive
+ usr/bin/apt-sortpkgs

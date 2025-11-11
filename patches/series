@@ -1,2 +1,5 @@
+disable-ftparchive-build.patch
+remove-apt-ftparchive-packagin-files.patch
+remove-libdb5.patch
 remove-md5-support.patch
 ssl_init.patch
